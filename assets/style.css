@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .fas {
+    padding-right: 0.625rem;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .research__input {
+    font-size: 1.2rem;
+  }
+  
+  .research p {
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+  
+  .footer__logo {
+    font-family: "Shrikhand", sans-serif;
+    font-weight: 200;
+  }
+  
+  .menu-card__title {
+    font-family: "Shrikhand", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 200;
+  }
+  .menu-card__subtitle {
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+  .menu-card__sub-subtitle {
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 600;
+  }
+  .menu-card__txt {
+    font-size: 0.9rem;
+  }
+  .menu-card__price {
+    font-weight: 600;
+  }
+  
+  .loader-section {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation: opacity 0.1s 3.2s both;
+  }
+  .loader-section__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 145px;
+    height: 145px;
+    position: relative;
+  }
+  .loader-section__cercle-wrapper {
+    position: absolute;
+    border-radius: 50%;
+    animation: loader linear infinite;
+  }
+  .loader-section__cercle-wrapper:nth-child(1) {
+    animation-duration: 0.7s;
+  }
+  .loader-section__cercle-wrapper:nth-child(2) {
+    animation-duration: 0.8s;
+  }
+  .loader-section__cercle-wrapper:nth-child(3) {
+    animation-duration: 0.9s;
+  }
+  .loader-section__cercle-wrapper--1 {
+    width: 100px;
+    height: 100px;
+  }
+  .loader-section__cercle-wrapper--2 {
+    width: 60px;
+    height: 60px;
+  }
+  .loader-section__cercle-wrapper--3 {
+    width: 35px;
+    height: 35px;
+  }
+  .loader-section__cercle {
+    border-radius: 50%;
+    position: absolute;
+  }
+  .loader-section__cercle--1 {
+    width: 35px;
+    height: 35px;
+    background-color: #9256dc;
+  }
+  .loader-section__cercle--2 {
+    width: 30px;
+    height: 30px;
+    background-color: #ff7ad9;
+  }
+  .loader-section__cercle--3 {
+    width: 20px;
+    height: 20px;
+    background-color: #99E2D0;
+  }
+  
+  @keyframes loader {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes opacity {
+    100% {
+      opacity: 0;
+      z-index: -1;
+    }
+  }
+  .btn {
+    font-size: 1rem;
+    color: white;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background: linear-gradient(180deg, #ff7ad9, #9256dc 140%);
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity, 200ms, linear;
+  }
+  .btn:hover {
+    box-shadow: 5px 5px 10px -2px rgba(0, 0, 0, 0.5);
+    opacity: 0.85;
+  }
+  
+  .fa-heart {
+    position: relative;
+    justify-self: end;
+    font-size: 1.8rem;
+  }
+  .fa-heart:hover .fa-heart--bg {
+    transform: scale(0.87);
+    color: transparent;
+    background: linear-gradient(180deg, #ff7ad9, #9256dc 140%);
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .fa-heart .restaurant__icon--bg {
+    position: absolute;
+    text-align: center;
+    font-weight: 600;
+    right: 0;
+    color: transparent;
+    font-size: 1.8rem;
+    transform: scale(0);
+    transition: all 100ms linear;
+  }
+  
+  .header {
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+  }
+  .header__arrow {
+    font-size: 1.5rem;
+  }
+
+  .header__logo {
+    grid-column-start: 2;
+  }
+  
+  .research__area {
+    width: 100%;
+    background-color: #f2f2f2f1;
+    box-shadow: inset 0px 2px 5px 0px #b9b3b3;
+    text-align: center;
+  }
+  .research__input {
+    border: none;
+    background-color: #f2f2f2f1;
+    width: 150px;
+  }
+  .research__icon {
+    font-size: 1.3rem;
+    padding: 1.25rem;
+  }
+  .research__description {
+    background: #f6f6f6;
+    padding: 2.5rem 0 3.75rem 0;
+    text-align: center;
+  }
+  .research__description P {
+    color: #8a8a8a;
+    padding: 1.25rem 0;
+  }
+  
+ 
