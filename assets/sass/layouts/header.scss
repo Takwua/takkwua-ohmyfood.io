@@ -1,0 +1,26 @@
+// layout/_header.scss
+.header {
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.header__arrow {
+    font-size: 1.5rem;
+}
+
+.header__logo {
+    grid-column-start: 2;
+}
+
+.research__area {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    align-self: stretch;
+    background: var(--Grey-2, #EAEAEA);
+}
