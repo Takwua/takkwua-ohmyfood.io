@@ -1,0 +1,38 @@
+// _restaurants.scss
+
+.restaurants {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: $color-background;
+  }
+  
+  .restaurants-title {
+    font-family: $font-roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-top: 54px;
+    padding-left: 3px;
+    margin-bottom: 25px;
+  }
+  
+  .restaurants-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 18px;
+    padding-bottom: 78px;
+  }
+  
+  .restaurants-card {
+    background-color: white;
+    border-radius: 15px;
+  }
+  
+  .restaurants-card-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  

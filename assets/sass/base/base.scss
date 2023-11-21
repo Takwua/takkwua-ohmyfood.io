@@ -1,0 +1,23 @@
+// _base.scss
+
+@import 'variables';
+@import 'mixins';
+
+*,
+::before,
+::after {
+  @include box-sizing(border-box);
+}
+
+body {
+  line-height: 1.5;
+  font-family: $font-roboto;
+}
+
+a {
+  @include transition(color);
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+

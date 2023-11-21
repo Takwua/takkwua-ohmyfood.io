@@ -1,0 +1,20 @@
+.page-header {
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .page-main-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 45px 45px 0px 0px;
+    padding-top: 32px;
+    position: relative;
+    top: -55px;
+  } 
+  .main-title {
+    margin: 0px 17px;
+    display: flex;
+    justify-content: space-between;
+  }

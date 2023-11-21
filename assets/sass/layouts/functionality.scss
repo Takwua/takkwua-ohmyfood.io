@@ -1,0 +1,47 @@
+// _functionality.scss
+
+.fonctionnement {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 0;
+  }
+  
+  .fonctionnement-title {
+    margin-bottom: 26px;
+  }
+  
+  .fonctionnement-options {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24.93px;
+    padding-left: 12.51px;
+  }
+  
+  .fonctionnement-options-row {
+    display: flex;
+    height: 72.38px;
+    align-items: center;
+    width: 100%;
+  
+    h2 {
+      font-family: $font-roboto;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 19px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+  
+  .number-icon {
+    @include gradient-background($color-primary, $color-accent);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  

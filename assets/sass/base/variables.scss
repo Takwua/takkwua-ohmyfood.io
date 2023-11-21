@@ -1,6 +1,18 @@
-$primary-color: #ff7ad9;
-$secondary-color: #9256dc;
-$tertiary-color: #99E2D0;
-$base-font-family: "Roboto", sans-serif;
-$heading-font-family: "Shrikhand", sans-serif;
-$loader-bg-color: rgba(255, 255, 255, 0.9);
+// _variables.scss
+
+// Colors
+$color-gray: rgb(126, 126, 126);
+$color-primary: rgb(147, 86, 220);
+$color-background: rgb(246, 246, 246);
+$color-text: rgb(53, 53, 53);
+$color-accent: rgb(153, 226, 208);
+
+// Fonts
+$font-roboto: 'Roboto', sans-serif;
+$font-shrikhand: 'Shrikhand', cursive;
+
+// Animation
+$transition-duration: 0.3s;
+$transition-timing: ease-in-out;
+$transition-delay: 0s;
+
