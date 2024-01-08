@@ -1,1 +1,22 @@
-{\rtf1}
+// Variables
+$loading-bg-color: rgb(0, 0, 0);
+$loading-z-index: 666;
+$loading-animation-duration: 0.2s;
+$loading-animation-delay: 1s;
+$effect: hover 2s linear infinite;
+$font-family: Roboto;
+$font-size: 16px;
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+$line-height: 1.5;
+$letter-spacing: 0em;
+$text-align-left: left;
+$box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 15px 0px;
+$background-color-light: rgb(246, 246, 246);
+$background-color-dark: rgb(53, 53, 53);
+$text-color-light: white;
+$text-color-dark: rgb(0, 135, 102);
+$border-radius: 20px;
+$border-radius-card: 15px;
+$gradient-start: rgb(147, 86, 220);
+$gradient-end: rgb(255, 121, 218);

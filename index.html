@@ -4,10 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OhMyFood - Commande de Repas en Ligne</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
 
   <body>
+    <div class="loading">
+      <div class="loader">
+        <p>C</p>
+        <p>H</p>
+        <p>A</p>
+        <p>R</p>
+        <p>G</p>
+        <p>E</p>
+        <p>M</p>
+        <p>N</p>
+        <p>T</p>
+      </div>
+    </div>
+
     <header class="header">
       <div class="header-logo">
         <a href="#" title="Retour à la page d'accueil">
@@ -20,18 +42,6 @@
         </a>
       </div>
       <div class="header-location">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="12"
-          height="16"
-          viewBox="0 0 12 16"
-          fill="none"
-        >
-          <path
-            d="M5.38337 15.6772C0.842812 9.09472 0 8.41915 0 6C0 2.68628 2.68628 0 6 0C9.31372 0 12 2.68628 12 6C12 8.41915 11.1572 9.09472 6.61662 15.6772C6.31865 16.1076 5.68131 16.1076 5.38337 15.6772ZM6 8.5C7.38072 8.5 8.5 7.38072 8.5 6C8.5 4.61928 7.38072 3.5 6 3.5C4.61928 3.5 3.5 4.61928 3.5 6C3.5 7.38072 4.61928 8.5 6 8.5Z"
-            fill="#353535"
-          />
-        </svg>
         <a href="https://maps.google.com?q=Belleville,Paris" target="_blank">
           Belleville, Paris
         </a>
@@ -91,7 +101,7 @@
           <div class="restaurants-cards">
             <div class="restaurants-card-container">
               <article class="restaurants-card">
-                <a href="" title="La palette du goût">
+                <a href="la-palette-du-gout.html" title="La palette du goût">
                   <figure>
                     <img
                       src="./assets/images/restaurants/lapalettedugout.jpg"
@@ -101,28 +111,16 @@
                   </figure>
                 </a>
                 <div class="restaurants-card-content">
-                  <a href="" title="La palette du goût">
+                  <a href="la-palette-du-gout.html" title="La palette du goût">
                     <div class="restaurants-card-txt">
                       <h3 class="restaurants-card-name">La palette du goût</h3>
                       <p class="restaurants-card-location">Ménilmontant</p>
                     </div>
                   </a>
-                  <div class="restaurants-card-favorite">
-                    <input type="checkbox" id="palette-favorite" />
-                    <label
-                      for="palette-favorite"
-                      title="Ajoutez aux favoris"
-                      class="favorite-restaurants"
-                    >
-                      <i
-                        class="fa-regular fa-heart heart page-heart unfilled-heart"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa-solid fa-regular fa-heart heart page-heart filled-heart favorite-selected"
-                        aria-hidden="true"
-                      ></i>
-                    </label>
+                  <div class="">
+                    <i class="far fa-heart heart">
+                      <i class="fas fa-heart heart-color"></i>
+                    </i>
                   </div>
                 </div>
               </article>
@@ -130,10 +128,7 @@
 
             <div class="restaurants-card-container">
               <article class="restaurants-card">
-                <a
-                  href="restaurants/la-note-enchantee.html"
-                  title="La note enchantée"
-                >
+                <a href="la-note-enchantee.html" title="La note enchantée">
                   <figure>
                     <img
                       src="./assets/images/restaurants/lanoteenchantee.jpg"
@@ -143,28 +138,16 @@
                   </figure>
                 </a>
                 <div class="restaurants-card-content">
-                  <a href="" title="La note enchantée">
+                  <a href="la-note-enchantee.html" title="La note enchantée">
                     <div class="restaurants-card-txt">
                       <h3 class="restaurants-card-name">La note enchantée</h3>
                       <p class="restaurants-card-location">Charonne</p>
                     </div>
                   </a>
-                  <div class="restaurants-card-favorite">
-                    <input type="checkbox" id="lanote-favorite" checked />
-                    <label
-                      for="lanote-favorite"
-                      title="Ajoutez aux favoris"
-                      class="favorite-restaurants"
-                    >
-                      <i
-                        class="fa-regular fa-heart heart page-heart unfilled-heart"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa-solid fa-regular fa-heart heart page-heart filled-heart favorite-selected"
-                        aria-hidden="true"
-                      ></i>
-                    </label>
+                  <div class="">
+                    <i class="far fa-heart heart">
+                      <i class="fas fa-heart heart-color"></i>
+                    </i>
                   </div>
                 </div>
               </article>
@@ -172,10 +155,7 @@
 
             <div class="restaurants-card-container">
               <article class="restaurants-card">
-                <a
-                  href="restaurants/a-la-francaise.html"
-                  title="À la française"
-                >
+                <a href="a-la-francaise.html" title="À la française">
                   <figure>
                     <img
                       src="./assets/images/restaurants/alacitefrancaise.jpg"
@@ -184,28 +164,16 @@
                   </figure>
                 </a>
                 <div class="restaurants-card-content">
-                  <a href="" title="À la française">
+                  <a href="a-la-francaise.html" title="À la française">
                     <div class="restaurants-card-txt">
                       <h3 class="restaurants-card-name">À la française</h3>
                       <p class="restaurants-card-location">Cité Rouge</p>
                     </div>
                   </a>
-                  <div class="restaurants-card-favorite">
-                    <input type="checkbox" id="alafrancaise-favorite" />
-                    <label
-                      for="alafrancaise-favorite"
-                      title="Ajoutez aux favoris"
-                      class="favorite-restaurants"
-                    >
-                      <i
-                        class="fa-regular fa-heart heart page-heart unfilled-heart"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa-solid fa-regular fa-heart heart page-heart filled-heart favorite-selected"
-                        aria-hidden="true"
-                      ></i>
-                    </label>
+                  <div class="">
+                    <i class="far fa-heart heart">
+                      <i class="fas fa-heart heart-color"></i>
+                    </i>
                   </div>
                 </div>
               </article>
@@ -213,7 +181,7 @@
 
             <div class="restaurants-card-container">
               <article class="restaurants-card">
-                <a href="" title="Le délice des sens">
+                <a href="le-delice-des-sens.html" title="Le délice des sens">
                   <div class="restaurants-card-image">
                     <figure>
                       <img
@@ -224,28 +192,16 @@
                   </div>
                 </a>
                 <div class="restaurants-card-content">
-                  <a href="" title="Le délice des sens">
+                  <a href="le-delice-des-sens.html" title="Le délice des sens">
                     <div class="restaurants-card-txt">
                       <h3 class="restaurants-card-name">Le délice des sens</h3>
                       <p class="restaurants-card-location">Folie-Méricourt</p>
                     </div>
                   </a>
-                  <div class="restaurants-card-favorite">
-                    <input type="checkbox" id="ledelice-favorite" />
-                    <label
-                      for="ledelice-favorite"
-                      title="Ajoutez aux favoris"
-                      class="favorite-restaurants"
-                    >
-                      <i
-                        class="fa-regular fa-heart heart page-heart unfilled-heart"
-                        aria-hidden="true"
-                      ></i>
-                      <i
-                        class="fa-solid fa-regular fa-heart heart page-heart filled-heart favorite-selected"
-                        aria-hidden="true"
-                      ></i>
-                    </label>
+                  <div class="">
+                    <i class="far fa-heart heart">
+                      <i class="fas fa-heart heart-color"></i>
+                    </i>
                   </div>
                 </div>
               </article>

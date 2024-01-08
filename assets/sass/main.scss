@@ -1,7 +1,14 @@
 // main.scss
-@import 'base/variables';
-@import 'utils/mixins.scss';
-@import 'base/reset';
-@import 'base/typography';
-@import 'layouts/header';
-@import 'components/buttons';
+@import 'utils/_mixins'; 
+@import 'themes/theme'; // 2
+@import 'base/base'; // 1
+@import 'components/_buttons'; // 3
+@import 'components/_icon';
+@import 'components/_cards';
+@import 'layouts/header'; // 4
+@import 'layouts/footer';
+@import 'pages/_home'; // 5
+@import 'pages/_restaurants';
+@import 'utils/loading'; // 6
+@import 'vendors/normalize'; // 7
+
